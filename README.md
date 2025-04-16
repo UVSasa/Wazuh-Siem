@@ -32,7 +32,7 @@ See [architecture/](architecture/) for diagrams and deployment notes.
 | Area | Description |
 |------|-------------|
 | **Log Monitoring** | Parsing and analyzing Windows Security, Sysmon, and application logs |
-| **File Integrity Monitoring** | Tracking file changes in sensitive directories |
+| **Vulnerability Detection & Management** | Detect and Manage system and application vulnerabilities|
 | **Threat Hunting** | Manual investigation of events like failed logins, privilege escalation |
 | **Custom Rule Creation** | Writing Wazuh `local_rules.xml` for fine-tuned detection |
 | **Incident Simulation** | Simulated brute-force attacks, malware drops, lateral movement |
