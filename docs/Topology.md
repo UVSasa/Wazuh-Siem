@@ -1,13 +1,13 @@
 ## Topology
 
-Internet
-|
+    Internet
+        |
 [Router/Switch]
-|
+        |
 +———————+
-|     Host System     |
+|     Host System(PC)  |
 |  (VMware Workstation)|
-+———————+
++———————+              |
 |        |        |
 |        |        |
 |        |        |
@@ -24,7 +24,6 @@ Manager    VM          VM
   - Collects and analyzes logs from all endpoints
   - Stores alerts and audit logs
   - Hosts the Wazuh dashboard (optional if web UI is installed)
-- **IP**: `192.168.1.100` (example)
 
 ### 2. **Windows 11 VM (Victim/Endpoint)**
 - **Role**: Simulates a typical workstation
@@ -32,10 +31,6 @@ Manager    VM          VM
   - Runs the Wazuh Agent
   - Sends security and system logs to the Wazuh Manager
   - Used to simulate user activity and trigger alerts
-- **Monitoring**:
-  - Failed logins
-  - Privilege escalation
-  - File integrity monitoring
 
 ### 3. **Kali Linux VM (Attacker)**
 - **Role**: Red team/Offensive testing
@@ -54,10 +49,8 @@ Manager    VM          VM
 
 - All VMs are configured to use **Bridged Networking**.
 - Each system receives an IP from the router on the same subnet.
-- The Wazuh Manager listens on ports `1514/udp` and `1515/tcp`.
 
 ## Log Collection and Analysis
-
 - **Log Types**:
   - Sysmon (on Windows)
   - Windows Security and Application logs
@@ -65,8 +58,7 @@ Manager    VM          VM
 - **Alerts**:
   - Stored in `alerts/sample-alerts.json`
   - Example alerts include login failures, privilege escalation, and FIM triggers
-
-##
+  - 
 ## Goals
 
 This lab helps practice:
