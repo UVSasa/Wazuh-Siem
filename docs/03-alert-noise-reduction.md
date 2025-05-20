@@ -10,8 +10,10 @@ Once the Windows agent was active, Wazuh began generating large volumes of alert
 
 - Repeated successful logins (Event ID 4624)
 - Legitimate `svchost.exe` activity
+- Legitimate registry changes
 - Normal software executions like Windows Defender, WMI, or update services
 - System file changes unrelated to attacks
+
 
 This noise can obscure meaningful alerts and waste analyst time, so the goal was to tune it down without suppressing important events.
 
