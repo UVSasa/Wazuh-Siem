@@ -10,9 +10,8 @@ The Windows agent was installed and manually registered with the Wazuh manager. 
 
 ### 🔧 1. Install the Agent (Windows)
 
-Download the latest Wazuh agent for Windows from:
-> https://packages.wazuh.com/4.x/windows/wazuh-agent-4.x.x.msi
+Download the latest Wazuh agent for Windows from the official wazuh webpage:
+  Quickstart --> Installation Guide --> Wazuh Agent
 
-Then follow the steps documented in:
-```text
-setup-scripts/install-agent-windows.txt
+Then follow the steps:
+Afterwards you will having a running agent 
