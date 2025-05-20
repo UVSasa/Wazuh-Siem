@@ -14,9 +14,9 @@ The lab was built using local virtual machines and a router on a bridged network
 
 | Machine            | Role              | OS         | Notes                                  |
 |--------------------|-------------------|------------|----------------------------------------|
-| Wazuh Manager      | SIEM Server       | Ubuntu     | Runs Wazuh manager, filebeat, dashboard |
-| Victim Machine     | Monitored Endpoint| Windows 11 | Sends logs to the manager              |
-| Kali VM (optional) | Attacker Simulation| Kali Linux | Used for MITM and testing (offline)    |
+| Wazuh Manager      | SIEM Server       | Ubuntu(VM)     | Runs Wazuh manager, dashboard |
+| Victim Machine     | Monitored Endpoint| Windows 11(VM) | Sends logs to the manager              |
+| Kali VM  | Attacker Simulation| Kali Linux | Used for MITM and testing (offline)    |
 
 ---
 
