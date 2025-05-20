@@ -32,8 +32,11 @@ The lab was built using local virtual machines and a router on a bridged network
 
 ### 1. Wazuh Manager Setup
 
-Used the provided script to install Wazuh and dependencies:
+Go to the official Wazuh Page and follow the instructions to download the wazuh manager. For your reference I used the quickstart option to install the central wazuh components.
 
-edit
-```bash
-setup-scripts/install-wazuh.sh
+
+
+
+
+
+
