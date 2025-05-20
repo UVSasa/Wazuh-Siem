@@ -22,7 +22,7 @@ The lab was built using local virtual machines and a router on a bridged network
 
 ## 🌐 Network Setup
 
-- All machines are on the same **bridged network** to allow communication through the physical router.
+- Both Virtual machines are on the same **bridged network** to allow communication through the physical router.
 - The router is disconnected from the internet to simulate a secure local environment.
 - Each VM is assigned a static IP for easy reference and firewall rule enforcement.
 
@@ -32,7 +32,7 @@ The lab was built using local virtual machines and a router on a bridged network
 
 ### 1. Wazuh Manager Setup
 
-Go to the official Wazuh Page and follow the instructions to download the wazuh manager. For your reference I used the quickstart option to install the central wazuh components.
+Go to the official Wazuh Page and follow the instructions to download the wazuh manager. For reference I used the quickstart option to install all the central wazuh components.
 
 ![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshot%202025-05-20%20154958.png?raw=true)
 
