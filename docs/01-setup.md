@@ -39,7 +39,7 @@ Go to the official Wazuh Page and follow the instructions to download the wazuh 
 Once everything is installed use the admin creditentials given to log into the wazuh dashboard. It should look similar to the image below.
 
 
-![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshot%202025-04-14%20160918.png?raw=true)
+![image alt]
 
 
 
