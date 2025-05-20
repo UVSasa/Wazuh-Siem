@@ -1,1 +1,42 @@
 custom rule file
+
+<!-- Local rules -->
+
+<!-- Modify it at your will. -->
+<!-- Copyright (C) 2015, Wazuh Inc. -->
+
+<!-- Example -->
+
+ <group name="custom_rules_example,">
+  <rule id="100010" level="0">
+    <program_name>example</program_name>
+    <description>User logged</description>
+  </rule>
+ </group>
+ 
+<group name="Supression_Rules">
+  <rule id="100001" level="0">
+  <if_sid>92307</if_sid>
+  <field name="win.eventdata.image" type="pcre2">(?i)Windows\\\\System32\\\\services.exe</field>
+  <description>Raw log match for Normal startup services.exe</description>
+</rule>
+
+<rule id="100002" level="0">
+   <if_sid>92031</if_sid>
+   <field name="win.eventdata.image" type="pcre2">(?i)Windows\\\\SysWOW64\\\\net1?\.exe</field>
+   <description>Normal Startup discovery activity executed</description>
+</rule>
+
+<rule id="100003" level="0">
+   <if_sid>92205</if_sid>
+   <field name="win.eventdata.image" type="pcre2">(?i)Windows\\\\SysWOW64\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe</field>
+   <description>Normal Startup discovery activity executed</description>
+</rule>
+
+<rule id="100004" level="0">
+   <if_sid>92032</if_sid>
+   <field name="win.eventdata.image" type="pcre2">(?i)Windows\\\\System32\\\\(?:cmd|sc|find)\.exe</field>
+   <description>Normal Startup activity executed</description>
+</rule>
+
+</group>
