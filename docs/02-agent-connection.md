@@ -15,3 +15,6 @@ Download the latest Wazuh agent for Windows from the official wazuh webpage:
 
 Then follow the steps:
 Afterwards you will having a running agent 
+
+
+
