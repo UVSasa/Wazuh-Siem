@@ -22,10 +22,12 @@ This lab mirrors the type of work expected in a SOC environment and serves as a 
 ## 🧱 Architecture
 
 The lab consists of a local, offline network with the following components:
-
-- **Wazuh Manager (Ubuntu)** – Collects, analyzes, and displays security data.
-- **Wazuh Agent (Windows 11)** – Sends logs and telemetry to the manager.
+PC
+- **Wazuh Manager (Ubuntu VM)** – Collects, analyzes, and displays security data.
+- **Wazuh Agent (Windows 11VM)** – Sends logs and telemetry to the manager.
 - **Firewall** – Controls traffic and provides visibility into network segmentation.
+
+Laptop
 - **(Optional) Kali VM** – Used for basic attack simulation and red team testing.
 
 📌 See the full network diagram:  
