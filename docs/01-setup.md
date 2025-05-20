@@ -34,6 +34,8 @@ The lab was built using local virtual machines and a router on a bridged network
 
 Go to the official Wazuh Page and follow the instructions to download the wazuh manager. For your reference I used the quickstart option to install the central wazuh components.
 
+![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshot%202025-05-20%20154958.png?raw=true)
+
 
 
 
