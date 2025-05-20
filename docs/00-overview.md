@@ -29,8 +29,4 @@ The lab consists of a local, offline network with the following components:
 - **(Optional) Kali VM** – Used for basic attack simulation and red team testing.
 
 📌 See the full network diagram:  
-[`architecture/network-diagram.png`](../architecture/network-diagram.png)
-
----
-
-## 🗂️ Repository Layout
+[`architecture/network-diagram.png`](../architecture/network-diagram
