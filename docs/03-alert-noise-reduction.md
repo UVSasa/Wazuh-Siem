@@ -26,6 +26,7 @@ To this end, Wazuh uses a rules-based engine to classify logs. You can override 
 
 ## 🧨 Real Example
 The alert below continuously fired....
+
 summary of alert:
 
 
