@@ -11,7 +11,7 @@ Walkthrough/ Documentation of the setup and lab
 
 The primary objective of this lab is to:
 - Learn how to install, configure, and manage a Wazuh-based SIEM.
-- Monitor system activity and detect suspicious behavior using logs and alerts.
+- Make sure our manger can monitor system activity and detect suspicious behavior using logs and alerts.
 - Tune alert noise by writing and applying custom rules.
 - Document the process for both personal learning and future reference.
 
@@ -22,13 +22,14 @@ This lab mirrors the type of work expected in a SOC environment and serves as a 
 ## 🧱 Architecture
 
 The lab consists of a local, offline network with the following components:
+
 PC
 - **Wazuh Manager (Ubuntu VM)** – Collects, analyzes, and displays security data.
 - **Wazuh Agent (Windows 11VM)** – Sends logs and telemetry to the manager.
 - **Firewall** – Controls traffic and provides visibility into network segmentation.
 
 Laptop
-- **(Optional) Kali VM** – Used for basic attack simulation and red team testing.
+- **Kali VM** – Used for basic attack simulation and red team testing.
 
 📌 See the full network diagram:  
 [`architecture/network-diagram.png`](../architecture/network-diagram
