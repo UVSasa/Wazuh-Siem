@@ -20,7 +20,6 @@ This noise can obscure meaningful alerts and waste analyst time, so the goal was
 
 To this end, Wazuh uses a rules-based engine to classify logs. You can override or suppress specific alerts by creating custom rules in:
 
-```bash
 /etc/ossec/rules/local_rules.xml
 
 ---
