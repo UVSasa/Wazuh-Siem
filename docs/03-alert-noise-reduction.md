@@ -17,11 +17,32 @@ Once the Windows agent was active, Wazuh began generating large volumes of alert
 
 This noise can obscure meaningful alerts and waste analyst time, so the goal was to tune it down without suppressing important events.
 
----
 
-## 🛠️ Strategy: Using `local_rules.xml`
-
-Wazuh uses a rules-based engine to classify logs. You can override or suppress specific alerts by creating custom rules in:
+To this end, Wazuh uses a rules-based engine to classify logs. You can override or suppress specific alerts by creating custom rules in:
 
 ```bash
 /etc/ossec/rules/local_rules.xml
+
+---
+
+## 🧨 Real Example
+The alert below continuously fired....
+summary of alert:
+
+
+Instead of blindly suppressing or escalating the alert, the process followed was:
+
+1. 🔍 Look at Process Context
+2. 📚 Search Trusted Sources
+3. 🧩 Check for Patterns
+
+✅ Final Determination summary
+
+All future alerts like this will go through this same triage process:
+	1.	Read the event log
+	2.	Analyze the process and file paths
+	3.	Check MITRE technique for context
+	4.	Search threat intel databases
+	5.	Decide whether to suppress, reduce severity, or escalate
+
+All supression rules I have written so far can be found in the local_rules.xml in the configs folder
