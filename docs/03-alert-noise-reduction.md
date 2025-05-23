@@ -25,7 +25,7 @@ To this end, Wazuh uses a rules-based engine to classify logs. You can override 
 ---
 
 ## 🧨 Real Example
-The alert below continuously fired....
+Everytime when first starting up the Wazuh manger and Windows machine the alert below would continuously fire....
 
 ![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshots/Alert752Ex.png?raw=true)
 
