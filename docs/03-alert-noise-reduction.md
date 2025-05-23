@@ -29,6 +29,8 @@ The alert below continuously fired....
 
 ![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Alert752Ex.png?raw=true)
 
+
+
 ![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshots/Alert752Ex2.png?raw=true)
 
 
