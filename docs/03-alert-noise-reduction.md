@@ -32,7 +32,7 @@ The first rule I decided to address was the rule id of 750 shown below. Everytim
 
 
 
-![image alt](
+![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshots/AlertEx1.png?raw=true)
 
 
 
