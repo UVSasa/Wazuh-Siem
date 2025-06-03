@@ -27,11 +27,11 @@ To this end, Wazuh uses a rules-based engine to classify logs. You can override 
 ## 🧨 Real Example
 Everytime when first starting up the Wazuh manger and Windows machine the alert "Registry Value Entry Added to the system" with the rule id of 752, would continuously fire....
 
-![image alt]
+![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshots/Alert752Ex.png?raw=true)
 
 
 
-![image alt]
+![image alt](
 
 
 
