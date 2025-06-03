@@ -18,7 +18,7 @@ Once the Windows agent was active, Wazuh began generating large volumes of alert
 This noise can obscure meaningful alerts and waste analyst time, so the goal was to tune it down without suppressing important events.
 
 
-To this end, Wazuh uses a rules-based engine to classify logs. You can override or suppress specific alerts by creating custom rules in:
+To this end, Wazuh uses a rules-based engine to classify logs. You manage or supress alerts in can the ossec.conf file on the agent or you can override or suppress specific alerts by creating custom rules in:
 
 /etc/ossec/rules/local_rules.xml
 
