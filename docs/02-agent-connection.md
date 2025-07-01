@@ -17,7 +17,7 @@ Download the latest Wazuh agent for Windows from the official wazuh webpage:
 ![image alt](https://github.com/UVSasa/Wazuh-Siem/blob/main/Screenshots/Screenshot_003.png?raw=true)
 
 Then follow the steps:
-Afterwards you will having a running agent and your dashboard will look like mine the setup document. 
+Afterwards you will having a running agent and your dashboard will look like mine in the setup document. 
 
 
 
